@@ -1,0 +1,18 @@
+hr{
+	border-style: solid;
+	border-color: black;
+}
+#contenedor{
+	border-radius: 1.5em;
+	width: 100%;
+	height: auto;
+	padding: 6em;
+	background-color: gray;
+}
+.cajafoto{
+	height: auto;
+	width: 15em;
+}
+.mtop2{
+	margin-top: 2em;
+}

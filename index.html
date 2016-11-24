@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Adivina Quién</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<h1>Smash Faces</h1>
+					<hr>
+					<p>Bienvenidas al juego de Smash Fases, tu misión es poder identificar a todas tus compañeras de clase ingresando para ello su nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente.</p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row mtop2">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+					<div class="container">
+	  					<p>Elige tu sede</p>
+	  					<div class="dropdown">
+	    					<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Lima
+	    					<span class="caret"></span></button>
+	    					<ul class="dropdown-menu">
+							    <li><a href="#">Lima</a></li>
+							    <li><a href="#">Arequipa</a></li>
+							    <li><a href="#">México</a></li>
+							    <li><a href="#">Chile</a></li>
+						    </ul>
+						 </div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+					<p>Puntos:</p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="container">
+			<div class="row mtop2">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div id="contenedor">
+						<div class="row">
+							<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+								<div class="cajafoto">
+									<img src="images/Hass.jpg" alt="fotografía de Hass, Laboratoria México" class="img-responsive">
+								</div>
+							</div>
+							<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+								<div class="form-group">
+	  								<label for="usr">Ingresa su nombre</label>
+	  								<input type="text" class="form-control" id="usr">
+								</div>
+								<button>Comprobar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--zona de script-->
+	<script type="text/javascript" src="js/main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
